@@ -1,7 +1,0 @@
-﻿  main.cpp
-c:\users\vasi peycheva\documents\visual studio 2015\projects\queue\queue\queue.h(53): warning C4101: 'e': unreferenced local variable
-  c:\users\vasi peycheva\documents\visual studio 2015\projects\queue\queue\queue.h(47): note: while compiling class template member function 'Queue<char>::Queue(int)'
-  c:\users\vasi peycheva\documents\visual studio 2015\projects\queue\queue\main.cpp(8): note: see reference to function template instantiation 'Queue<char>::Queue(int)' being compiled
-  c:\users\vasi peycheva\documents\visual studio 2015\projects\queue\queue\main.cpp(8): note: see reference to class template instantiation 'Queue<char>' being compiled
-  Queue.vcxproj -> C:\Users\Vasi Peycheva\Documents\Visual Studio 2015\Projects\Queue\Debug\Queue.exe
-  Queue.vcxproj -> C:\Users\Vasi Peycheva\Documents\Visual Studio 2015\Projects\Queue\Debug\Queue.pdb (Full PDB)
