@@ -64,11 +64,9 @@ inline void MinHeap<TYPE>::siftDown()
 {
 	int index = 0;
 	int size = heap.size() - 1;
-	while (index < size)
+	int child = 2 * index + 1;
+	while (index < size && child <= size)
 	{
-		int child = 2 * index + 1;
-		if (child <= size)
-		{
 			if (child + 1 <= size) // if he has 2 childrens
 			{
 				if (heap[child] > heap[child + 1]) // we search for the smaller one
@@ -83,11 +81,6 @@ inline void MinHeap<TYPE>::siftDown()
 			{
 				break;
 			}
-		}
-		else
-		{
-			break;
-		}
 	}
 }
 
