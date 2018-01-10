@@ -52,7 +52,7 @@ inline const TYPE DynamicArray<TYPE>::operator[](int index) const
 	if (index >= size || index < 0)
 		return 0;
 
-	return arr[index];
+	return data[index];
 }
 
 template <class TYPE>
@@ -97,7 +97,6 @@ inline const void DynamicArray<TYPE>::print()
 		cout << data[i] << endl;
 }
 
-//ASK .. burzodeistvieto na programata
 template<class TYPE>
 inline int DynamicArray<TYPE>::search(const TYPE & element)
 {
@@ -123,7 +122,7 @@ template<class TYPE>
 inline bool DynamicArray<TYPE>::remove(int index)
 {
 	if (index >= size || index < 0)
-		return false; /*or ? throw "invalid index" */
+		return false; 
 	for (int i = index; i < size - 1; i++)
 		data[i] = data[i + 1];
 	size--;
